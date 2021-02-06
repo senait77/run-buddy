@@ -32,18 +32,19 @@
         </nav>
     </header>
     <!-- hero/jumbotron -->
-<section>
-  <div>
+<section class="hero">
+  <div class="hero-form">
     <h3>Get Started Today</h3>
     <p>Fill out these form and one of our trainers will schedule a consult</p>
     <!-- Add form element-->
-    <form>
+    <div class="form-input">
       <lable for="name">Enter full name:</lable>
       <input type="text" placeholder="Your Name" name="name" id="name" />
       <lable for="email">Enter email address:</lable>
-      <input type="email" placeholder="Email Address" name="email" id="email" />
+      <input type="text" placeholder="Email Address" name="email" id="email" />
       <label for="phone">Enter a telephone number:</label>
-      <input type="tel" placeholder="Phone Number" name="phone" id="phone" />
+      <input type="text" placeholder="Phone Number" name="phone" id="phone" />
+    </div>
       <p>
         Have you worked out with a trainer before?
         <input type="radio" name="trainer-confirm" id="trainer-yes" />
@@ -60,7 +61,7 @@
       <button type="submit" >
         Get Running!
       </button>
-    </form>
+  
   </div>
 </section>
 <!-- end hero-->
