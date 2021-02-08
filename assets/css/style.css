@@ -129,7 +129,7 @@ background-size: cover;
 /* Hero Styles End*/
 /* what we do section */
 .intro {
-    text-align: center;
+    
 }
 .intro h2 {
     font-size: 55px;
@@ -146,18 +146,20 @@ background-size: cover;
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 .steps {
-    text-align: center;
     background: #fce138;
 }
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
     border-bottom: 3px sloid;
     border-color: #39a6b2;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 .primary-border {
     border-color: #fce138;
@@ -242,7 +244,6 @@ background-size: cover;
 }
 /* REACH OUT STYLES START */
 .contact {
-    text-align: center;
     background: #024e76;
 } 
 .contact h2 {
@@ -277,3 +278,7 @@ background-size: cover;
   }
   
   /* REACH OUT STYLES END */
+  /* flex box sytling stars */
+  .flex-row{
+      display: flex;
+  }
