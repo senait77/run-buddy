@@ -425,7 +425,7 @@ background-size: cover;
             flex: 0 100%;
           }
           .contact-form {
-            order: 3;
-          }
+  order: 3;
+}
     
   }
