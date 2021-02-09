@@ -21,7 +21,7 @@ header {
     background-size: cover;
     background-position: 80%;
     background-attachment: fixed;
-    z-index: 9999;
+    
       }
 header h1 {
     font-weight: bold;
@@ -519,3 +519,8 @@ section {
 .radio-wrapper input:checked + label::after {
   content: "";
 }
+:root {
+    --primary-color: #fce138;
+    --secondary-color: #024e76;
+    --tertiary-color: #39a6b2;
+  }
